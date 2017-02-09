@@ -30,10 +30,23 @@ Author: JP Horsfield
   clear: both;
 }
 
+/*******************************************
+/*I'm using rem sizing for this project to see
+/*if I can get the granularity of control 
+/*I need whilst making responsive design easy
+/*to implement
+/*********************************************/
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
+
+/*********************************************
+/*Setting root font size to this specific value
+/*to cope with different browsers not setting
+/*font sizes the same - older versions particularly
+/********************************************/
 html {
 	font-size: 100.01%;
 }
