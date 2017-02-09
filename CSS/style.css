@@ -15,6 +15,7 @@ Developer @GA in NYC
 	-moz-box-sizing: border-box; /* Firexfox */
 	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
 	box-sizing: border-box; /* IE */
+	/*border: 2px solid red;*/
 }
 
 /* Clear fix hack */
@@ -35,38 +36,117 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+html {
+	font-size: 100.01%;
+}
 body {
-	color: #000;
-	font-size: 12px;
-	line-height: 1.4;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', arial, sans-serif;
+	
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-.container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+h1 {
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 24px;
+	color: rgba(255,255,255,1);	
 }
-
 header {
-
-}
-
-.intro {
-	background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+	background: url('../IMAGES/header_bg.jpg') no-repeat top center rgba(0,0,0,1);
 	background-size: cover;
+	margin: 0 auto;
+	height: 700px;
+	padding: 3rem 0 0 0;
 }
-
 footer {
-
+	font-size: 9px;
+	font-weight: 600;
+}
+section {
+	width: 960px;
+	margin: 0 auto;
+}
+button {
+	border-radius: 5px;
+  	font-weight: 800;
+  	padding: 0.8rem 0;
+  	width: 17rem;
+  	font-size: 14px;
+  	text-align: center;
+  	display: block;
+  	margin: 0 auto;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+/*.head_area {*/
+	/*width: 960px;*/
+	/*margin: 0 auto;*/
+/*}*/
+
+.benefit_article {
+	background-color: rgba(255,255,255,1);	
+}
+.benefits {
+	color: #033048;
+	width: 960px;
+	margin: 0 auto;
+	height: 23rem;
+}
+.benefits h2 {
+	font-size: 20px;
+	font-weight: 600;
+	padding: 5.7rem 0 3rem;
+	color: #033048;
+}
+.benefits p, li {
+	font-size: 13px;
+	font-weight: 300;
+	color: #606161;
+}
+.benefits ul {
+	list-style: disc;
+	margin: 2rem 0 0 2.5rem;
+}
+.head_area h2 {
+	text-align: center;
+	margin: 9rem 0 7rem 0;
+	font-weight: 600;
+	color: rgba(255,255,255,1);
+	font-size: 24px;
+}
+.get_it {
+	background: #f9e42e;
+  	color: #033048;
+}
+.testimonial_article {
+	background: url(../IMAGES/testimonial_bg.jpg) no-repeat top center rgba(0,0,0,1);
+	background-size: cover;
+	height: 12rem;
+	color: #606161;
+}
+.testimonial {
+	font-size: 18px;
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 3rem 0 3rem;
+}
+.testimonial h2 {
+	font-weight: 300;
+	padding-bottom: 2rem;
+	font-style: italic;
+}
+.testimonial_span {
+	font-weight: 600;
+}
+.sign_up {
+	background-color: #f9e42e;
+	height: 6.5rem;
+}
+.sign_up section {
+	padding: 1.8rem 0 1rem;
+}
+.sign_up button {
+	font-size: 12px;
+	font-weight: 800;
+	padding: 1rem 0 1rem 0;
+	background-color: #033048;
+	color: rgba(255,255,255,1);
+}
