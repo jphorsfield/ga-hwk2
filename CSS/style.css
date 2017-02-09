@@ -1,8 +1,6 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Landing Page
+Author: JP Horsfield
 */
 
 
@@ -56,10 +54,6 @@ header {
 	height: 700px;
 	padding: 3rem 0 0 0;
 }
-footer {
-	font-size: 9px;
-	font-weight: 600;
-}
 section {
 	width: 960px;
 	margin: 0 auto;
@@ -74,14 +68,33 @@ button {
   	display: block;
   	margin: 0 auto;
 }
-
-/*.head_area {*/
-	/*width: 960px;*/
-	/*margin: 0 auto;*/
-/*}*/
-
+footer {
+	margin: 0 auto;
+	padding: 2rem 0 2rem 0;
+	font-size: 9px;
+	font-weight: 600;
+	background-color: #121212;
+	text-align: center;
+}
+/***************************************
+/*Class styles for the header section
+/***************************************/
+.head_area h2 {
+	text-align: center;
+	margin: 9rem 0 7rem 0;
+	font-weight: 600;
+	color: rgba(255,255,255,1);
+	font-size: 24px;
+}
+.get_it {
+	background: #f9e42e;
+  	color: #033048;
+}
+/***************************************
+/*Class styles for the benefits section
+/***************************************/
 .benefit_article {
-	background-color: rgba(255,255,255,1);	
+	background-color: #f0efef;	
 }
 .benefits {
 	color: #033048;
@@ -104,17 +117,9 @@ button {
 	list-style: disc;
 	margin: 2rem 0 0 2.5rem;
 }
-.head_area h2 {
-	text-align: center;
-	margin: 9rem 0 7rem 0;
-	font-weight: 600;
-	color: rgba(255,255,255,1);
-	font-size: 24px;
-}
-.get_it {
-	background: #f9e42e;
-  	color: #033048;
-}
+/***************************************
+/*Class styles for the testimonial section
+/***************************************/
 .testimonial_article {
 	background: url(../IMAGES/testimonial_bg.jpg) no-repeat top center rgba(0,0,0,1);
 	background-size: cover;
@@ -133,9 +138,12 @@ button {
 	padding-bottom: 2rem;
 	font-style: italic;
 }
-.testimonial_span {
+.testimonial span {
 	font-weight: 600;
 }
+/***************************************
+/*Class styles for the sign up button
+/***************************************/
 .sign_up {
 	background-color: #f9e42e;
 	height: 6.5rem;
@@ -149,4 +157,22 @@ button {
 	padding: 1rem 0 1rem 0;
 	background-color: #033048;
 	color: rgba(255,255,255,1);
+}
+/***************************************
+/*Class styles for the footer section
+/***************************************/
+.footer h2 {
+	font-weight: 800;
+	font-size: 24px;
+	color: #f9e42e;
+	margin: 0 auto;
+}
+.footer li {
+	padding: 1.3rem 1.4rem 2rem 0.5rem;
+	display: inline-block;
+}
+.footer p {
+	color: #606161;
+	font-size: 9px;
+	font-weight: 600;
 }
